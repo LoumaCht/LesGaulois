@@ -5,7 +5,7 @@ import java.util.Random;
 import personnages.Druide;
 import personnages.Gaulois;
 import personnages.Romain;
-
+//on peut faire un import personnages.*; et ca remplace tous les imports des class du package personnages 
 public class Scenario {
 
 	public static void main(String[] args) {

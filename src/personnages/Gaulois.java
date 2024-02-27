@@ -50,7 +50,7 @@ public class Gaulois {
 		Druide panoramix = new Druide("Panoramix",5,10);
 		Random random1 = new Random();
 		int forcePotion = panoramix.preparerPotion(random1);
-//	System.out.println(asterix); ca n'affiche pas le nom du nouveau gaulois !!
+//	System.out.println(asterix.toString()); ca n'affiche pas le nom du nouveau gaulois !!
 		System.out.println(asterix.getNom());
 		asterix.parler("Bonjour !");
 		asterix.frapper(minus);
