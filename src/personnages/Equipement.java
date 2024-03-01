@@ -1,14 +1,17 @@
 package personnages;
 
 public enum Equipement {
-	CASQUE,BOUCLIER;
+	CASQUE("casque"),BOUCLIER("bouclier");
+	
 	private String nom;
 	
-	private Equipement(String chaine) {
+	private Equipement(String nom) {
 		// modifier la chaine 
-	}() {
-		
+		this.nom=nom;
+	}
+	public String toString() {
+		return nom;
 	}
 	
-
+	
 }
