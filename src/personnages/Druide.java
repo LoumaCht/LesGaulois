@@ -15,7 +15,7 @@ public class Druide {
 		parler("Bonjour, je suis le druide " + nom + " et ma potion peut aller d'une force " + effetPotionMin + " à "
 				+ effetPotionMax + ".");
 	}
-	public int  preparerPotion(Random random) {
+	public int  preparerPotion() {
 		Random random1 = new Random();
 		
 		do {
@@ -56,8 +56,7 @@ public class Druide {
 	}
 	public static void main(String[] args) {
 		Druide panoramix = new Druide("Panoramix",5,10);
-		Random random1 = new Random();
-		panoramix.preparerPotion(random1);
+		panoramix.preparerPotion();
 		
 	} 
 }
